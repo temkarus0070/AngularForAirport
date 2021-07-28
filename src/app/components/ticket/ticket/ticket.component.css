@@ -1,0 +1,9 @@
+div>*{
+  flex:1 1 160px;
+  margin: 10px;
+}
+
+div{
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,4 @@
+<ul *ngFor="let ticket of tickets">
+  <app-ticket [ticket]="ticket"></app-ticket>
+</ul>
+<a href="" [routerLink]="['/ticket',minIndex+1]" >{{minIndex+1}}</a>
